@@ -6,27 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Menu Effect</title>
-</head>
-
-<body>
-    <section>
-        <ul>
-            <li data-text="sun"><a href="#">sun</a></li>
-            <li data-text="mercury"><a href="#">mercury</a></li>
-            <li data-text="venus"><a href="#">venus</a></li>
-            <li data-text="earth"><a href="#">earth</a></li>
-            <li data-text="jupiter"><a href="#">jupiter</a></li>
-            <li data-text="uranus"><a href="#">uranus</a></li>
-            <li data-text="neptune"><a href="#">neptune</a></li>
-        </ul>
-    </section>
-</body>
-
-</html>
-* {
+    <style>
+        * {
     margin: 0px;
     padding: 0px;
-}
+    }
 
 body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -121,3 +105,22 @@ ul li a:hover {
     transform: scale(1.5);
     opacity: 1;
 }
+    </style>
+</head>
+
+<body>
+    <section>
+        <ul>
+            <li data-text="sun"><a href="#">sun</a></li>
+            <li data-text="mercury"><a href="#">mercury</a></li>
+            <li data-text="venus"><a href="#">venus</a></li>
+            <li data-text="earth"><a href="#">earth</a></li>
+            <li data-text="jupiter"><a href="#">jupiter</a></li>
+            <li data-text="uranus"><a href="#">uranus</a></li>
+            <li data-text="neptune"><a href="#">neptune</a></li>
+        </ul>
+    </section>
+</body>
+
+</html>
+
